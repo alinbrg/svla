@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link
+			rel="preload"
+			href="/src/font/FiraGO-Italic.otf"
+			as="font"
+			type="font/otf"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="/src/font/FiraGO-HeavyItalic.otf"
+			as="font"
+			type="font/otf"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="/src/font/FiraGO-Regular.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin
+		/>
+
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>სვლა</title>
-		<link rel="stylesheet" href="src/css/style.css" />
+		<title>მთავარი - სვლა</title>
+		<link rel="stylesheet" href="src/css/style.css?v=1.7" />
 		<link
+			id="icon"
 			rel="shortcut icon"
 			href="src/img/magic-star.svg"
 			type="image/x-icon"
@@ -33,319 +56,369 @@
 			<secion class="main-page">
 				<div class="container">
 					<div class="main-page-wrapper">
-						<h2 class="title" text="ჯადოსნური ზღაპარი">ჯადოსნური ზღაპარი</h2>
+						<h2 class="title" text="მოუბარი">მოუბარი</h2>
 						<p class="main-page-desc">
-							დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-							ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის ტაძარი.
+							პირველად იყო ბგერა და არ ვიცით, ყველაფრისთვის თავის სახელის
+							დარქმევის სურვილმა ქნა თუ ჩვენმა დაუდგომელმა ცნობისმოყვარეობამ,
+							მაგრამ, ფაქტია, ასო-ბგერები ძვირფას კონებად შევკარით და სიტყვები
+							გამოვიგონეთ. ამის შემდეგ, ყვავილების სადარი ანბანითა და
+							სიტყვაკაზმულობით, ფონსაც, მეტ-ნაკლებად, იოლად გავდივართ და იმის
+							მიუხედავად, რომ განმარტება ყველაფერს მოეძებნება, ზოგჯერ, სიტყვები
+							მაინც არ გვყოფნის.
 						</p>
+
 						<div class="cards-wrapper">
 							<div class="card">
-								<img class="card-img" src="src/img/1.png" alt="" />
+								<img class="card-img" src="src/img/khedva.png" alt="ხედვა" />
+
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>ხედვა</h4>
+									<p>
+										გონებრივი სურათი, ან წარმოდგენა, რომელიც შთაგაგონებს,
+										განსაზღვრავს მიმართულებას და ხელს უწყობს სასურველი მიზნისკენ
+										სწრაფვას.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img" src="src/img/survili.png" alt="სურვილი" />
+
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>სურვილი</h4>
+									<p>
+										ლტოლვა ან სწრაფვა, რომელიც აძლიერებს მოტივაციას, გვაიძულებს
+										წინსვლას, გვიბიძგებს მოქმედებისკენ და ასახავს გულის და სულის
+										ღრმა ვნებებს.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img
+									class="card-img"
+									src="src/img/moqmedeba.png"
+									alt="მოქმედება"
+								/>
+
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>მოქმედება</h4>
+									<p>
+										მიზანმიმართული ძალისხმევა, რომელიც აქცევს ოცნებებს რეალობად,
+										განპირობებული გამბედაობითა და მონდომებით. ნაბიჯები,
+										რომლებსაც ვდგამთ მიზნებისკენ, წარმატების მისაღწევად.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img" src="src/img/mizani.png" alt="მიზანი" />
+
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>მიზანი</h4>
+									<p>
+										განზრახვა, რომელიც შთააგონებს მოქმედებას, აყალიბებს
+										მიმართულებას და აძლიერებს მოტივაციას სასურველ წერტილთან
+										მისასვლელად.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<!-- <div class="card">
+								<img class="card-img" src="src/img/Love.png" alt="სიყვარული" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
 									<h4>სიყვარული</h4>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
+									<input
+										type="text"
+										class="write-love"
+										placeholder="ჩაწერე შენი განმარტება"
+									/>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
-							</div>
+							</div> -->
 							<div class="card">
-								<img class="card-img" src="src/img/2.png" alt="" />
+								<img class="card-img" src="src/img/energia.png" alt="ენერგია" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>ენერგია</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										ძალა, რომელიც უბიძგებს ცოცხალ ორგანიზმებს მოქმედებისკენ.
+										სიცოცხლისუნარიანობისა და პოტენციალის მომნიჭებელი მუხტი,
+										რომელიც ზრდასა და ცვლილებებს უზრუნველყოფს.
 									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
+
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
 							<div class="card">
-								<img class="card-img" src="src/img/3.png" alt="" />
+								<img class="card-img" src="src/img/mukhti.png" alt="მუხტი" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>მუხტი</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										ენერგიისა თუ შთაგონების უეცარი, ელექტრული აფეთქება, რომელიც
+										ბიძგს აძლევს მოქმედებას, აძლიერებს მას და იწვევს პოზიტიურ
+										ცვლილებებსა და ტრანსფორმაციას.
 									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
+
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
+
 							<div class="card">
-								<img class="card-img" src="src/img/4.png" alt="" />
+								<img
+									class="card-img"
+									src="src/img/shtagoneba.png"
+									alt="შთაგონება"
+								/>
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>შთაგონება</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										შემოქმედებითად განწყობა, აზრის ჩანერგვა, მიგნება,
+										შემოქმედების სურვილის გაჩენა. ძალა, რომელიც მუხტავს
+										შემოქმედებასა თუ მოქმედებას.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
+
 							<div class="card">
-								<img class="card-img" src="src/img/5.png" alt="" />
+								<img class="card-img" src="src/img/droa.png" alt="დრო" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>დრო</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										რესურსი, რომელიც განსაზღვრავს ჩვენს ცხოვრებას, აღნიშნავს
+										მომენტებს და გვთავაზობს ზრდისა და განვითარების
+										შესაძლებლობებს.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
-							<div class="card">
-								<img class="card-img" src="src/img/6.png" alt="" />
+							<!-- <div class="card">
+								<img class="card-img" src="src/img/cvlileba.jpg" alt="ცვლილება" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>ცვლილება</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										ზრდის, ევოლუციისა ან ადაპტაციის გარდაუვალი და გარდამტეხი
+										პროცესი, რომელიც ცხოვრების ახალ გეზს განსაზღვრავს.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
-							</div>
+							</div> -->
+
 							<div class="card">
-								<img class="card-img" src="src/img/7.png" alt="" />
+								<img class="card-img" src="src/img/gabedva.png" alt="გაბედვა" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>გაბედვა</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										თამამად წასვლა რისკზე, ან გამოწვევაზე, საკუთარი
+										შესაძლებლობებზე გამარჯვება შიშთან დაპირისპირებით.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
 							<div class="card">
-								<img class="card-img" src="src/img/8.png" alt="" />
+								<img
+									class="card-img"
+									src="src/img/motivacia.png"
+									alt="მოტივაცია"
+								/>
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>მოტივაცია</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										სწრაფვა ან ენთუზიაზმი, რომელიც უბიძგებს ადამიანს
+										მოქმედებისკენ, აძლიერებს ცვლილებებს და ხელს უწყობს
+										მიღწევებს.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
+
 							<div class="card">
-								<img class="card-img" src="src/img/9.png" alt="" />
+								<img class="card-img" src="src/img/shekmna.png" alt="შექმნა" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>შექმნა</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										ხედვით, ფანტაზიითა და მხატვრული მოქმედებით განმსჭვალული,
+										ჯერაც არარსებულისა და უნიკალურის არსებობაში შემოტანის აქტი.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
 							<div class="card">
-								<img class="card-img" src="src/img/10.png" alt="" />
+								<img
+									class="card-img"
+									src="src/img/gardatekha.png"
+									alt="გარდატეხა"
+								/>
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>გარდატეხა</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										მიმართულების შეცვლის გადამწყვეტი მოვლენა, მოქმედება, ან ერთი
+										მდგომარეობიდან, სიტუაციიდან და პერსპექტივიდან მეორეზე
+										გადასვლა, რასაც თან ახლავს მნიშვნელოვანი ცვლილებები თუ სრული
+										მეტამორფოზა.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
 							<div class="card">
-								<img class="card-img" src="src/img/11.png" alt="" />
+								<img
+									class="card-img"
+									src="src/img/sibrdzne.png"
+									alt="სიბრძნე"
+								/>
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>სიბრძნე</h4>
+									<p>
+										ცოდნასა და გამოცდილებაზე დაყრდნობით, გამჭრიახი გონების
+										მეშვეობით სიღრმისეული განსჯა, გონიერი გადაწყვეტილებების
+										მიღება და მათი ანალიზი, დროთა განმავლობაში მოპოვებული
+										გააზრებული მიდგომებით ხელმძღვანელობით.
+									</p>
+
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img
+									class="card-img"
+									src="src/img/ganwkoba.png"
+									alt="განწყობა"
+								/>
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>განწყობა</h4>
+									<p>
+										ემოციური ატმოსფერო, ან აურა, რომლითაც გაჟღენთილია ადამიანი,
+										გარემო, ან სიტუაცია. გამოხატულია მკვეთრი განცდების
+										ერთობლიობით, რომელიც გავლენას ახდენს აღქმებსა და
+										ურთიერთქმედებებზე.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img" src="src/img/vneba.png" alt="ვნება" />
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>ვნება</h4>
+									<p>
+										მძაფრი ემოცია სულის სიღრმიდან, რომელიც მუხტავს ენთუზიაზმს,
+										მიზანსა და მოქმედებას.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img" src="src/img/dzala.png" alt="ძალა" />
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>ძალა</h4>
+									<p>
+										უნარი, ან შესაძლებლობა, მოახდინო გავლენა, ან განახორციელო
+										ცვლილება, რომელიც ხშირად მომდინარეობს შინაგანი ენერგიის,
+										ცოდნისა და რწმენისგან.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+							<!-- <div class="card">
+								<img
+									class="card-img"
+									src="src/img/cnobismokvareoba.png"
+									alt="ცნობისმოყვარეობა"
+								/>
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>ცნობისმოყვარეობა</h4>
+									<p>
+										თანდაყოლილი, ან შეძენილი სურვილი, შეისწავლო, გაიგო და
+										შეიმეცნო აქამდე უცნობი, რომელსაც მივყავართ აღმოჩენებისა და
+										ცოდნის სამყარომდე.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div> -->
+							<div class="card">
+								<img
+									class="card-img"
+									src="src/img/azrovneba.png"
+									alt="აზროვნება"
+								/>
+								<img src="src/img/Vector.svg" alt="" class="show" />
+								<div class="desc">
+									<h4>აზროვნება</h4>
+									<p>
+										მსჯელობის, ანალიზისა და შეფასების შემეცნებითი პროცესი,
+										იდეების გენერირება ან მოსაზრებების ჩამოყალიბება, სამყაროს
+										ჩვენეული აღქმისა თუ გააზრების ფორმირება.
+									</p>
+									<img src="src/img/Vector.svg" class="hide" alt="" />
+								</div>
+							</div>
+
+							<div class="card">
+								<img class="card-img" src="src/img/nakadi.png" alt="ნაკადი" />
 
 								<img src="src/img/Vector.svg" alt="" class="show" />
 								<div class="desc">
-									<h4>სიყვარული</h4>
+									<h4>ნაკადი</h4>
 									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<img src="src/img/Vector.svg" class="hide" alt="" />
-								</div>
-							</div>
-							<div class="card">
-								<img class="card-img" src="src/img/12.png" alt="" />
-
-								<img src="src/img/Vector.svg" alt="" class="show" />
-								<div class="desc">
-									<h4>სიყვარული</h4>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<img src="src/img/Vector.svg" class="hide" alt="" />
-								</div>
-							</div>
-							<div class="card">
-								<img class="card-img" src="src/img/13.png" alt="" />
-
-								<img src="src/img/Vector.svg" alt="" class="show" />
-								<div class="desc">
-									<h4>სიყვარული</h4>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<img src="src/img/Vector.svg" class="hide" alt="" />
-								</div>
-							</div>
-							<div class="card">
-								<img class="card-img" src="src/img/14.png" alt="" />
-								<img src="src/img/Vector.svg" alt="" class="show" />
-								<div class="desc">
-									<h4>სიყვარული</h4>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<img src="src/img/Vector.svg" class="hide" alt="" />
-								</div>
-							</div>
-							<div class="card">
-								<img class="card-img" src="src/img/15.png" alt="" />
-								<img src="src/img/Vector.svg" alt="" class="show" />
-								<div class="desc">
-									<h4>სიყვარული</h4>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
-									</p>
-									<p>
-										დედა ენა, ჩვენი ცოდნის ლამპარი,აი-ია, ჯადოსნური ზღაპარი,ჩუმი
-										ნატვრა, სამრეკლოა და ზარი,ყრმობის სიბრძნე, ჩვენი ცოდნის
-										ტაძარი.
+										ერთიანი ძალა, რომელიც იზრდება პროგრესულად და ძლიერი
+										ენერგიით. აღმაფრთოვანებელი ტალღა, რომელიც მნიშვნელოვანი
+										ცვლილებების მოსახდენად შთაგაგონებს.
 									</p>
 									<img src="src/img/Vector.svg" class="hide" alt="" />
 								</div>
 							</div>
 						</div>
 
-						<a href="#" class="see-more">პროექტის შესახებ</a>
+						<a href="about.html" class="see-more">პროექტის შესახებ</a>
 					</div>
 				</div>
-				<div class="shadows">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
 			</secion>
-		</main>
-		<footer>
-			<div class="container">
-				<p>
-					Project of <a href="https://smartacademy.ge/">Smart Academy</a> &
-					<a href="https://smartweb.ge/">Smart Web</a>
-				</p>
+			<div class="shadows">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
 			</div>
-		</footer>
+			<footer>
+				<div class="container">
+					<p>
+						ხელქმნა <a href="https://smartacademy.ge/">სმარტ აკადემიამ</a> და
+						<a href="https://smartweb.ge/">სმარტ ვებმა</a>
+					</p>
+				</div>
+			</footer>
+		</main>
 
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -356,6 +429,6 @@
 			gtag("config", "G-75D547BXDQ");
 		</script>
 
-		<script src="src/js/main.js"></script>
+		<script src="src/js/main.js?v=1.6"></script>
 	</body>
 </html>
