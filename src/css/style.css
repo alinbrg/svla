@@ -305,6 +305,9 @@ main {
 	outline: none;
 	background-color: transparent;
 }
+.card .desc p {
+	line-height: 140%;
+}
 .write-love {
 	width: 100%;
 }
@@ -353,6 +356,14 @@ main {
 	background: rgba(114, 114, 114, 0.3);
 }
 
+@media (max-width: 1024px) {
+	.card .show {
+		opacity: 1;
+	}
+	.card::after {
+		background: rgba(114, 114, 114, 0.3);
+	}
+}
 .see-more {
 	display: block;
 	margin: 0 auto;
@@ -396,7 +407,7 @@ footer a:hover {
 }
 
 .about-page-wrapper {
-	/* padding-top: 50px; */
+	padding-top: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -430,7 +441,7 @@ footer a:hover {
 	/* max-width: 376px; */
 }
 .our-team {
-	max-width: 348px;
+	max-width: 425px;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 100px;
