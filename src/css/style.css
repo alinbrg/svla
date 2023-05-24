@@ -131,7 +131,7 @@ main {
 	font-style: italic;
 	font-weight: 800;
 	font-size: 72px;
-	line-height: 86px;
+	line-height: 140%;
 	font-feature-settings: "case" on;
 	text-align: center;
 	text-shadow: 1px 1px #000000;
@@ -633,7 +633,7 @@ footer a:hover {
 	.main-page-wrapper .title,
 	.about-page .main-title {
 		font-size: 54px;
-		line-height: 65px;
+		line-height: 140%;
 	}
 	.cards-wrapper {
 		grid-template-columns: repeat(2, 1fr);
